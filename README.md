@@ -19,6 +19,10 @@ Sum of all even Fibonacci numbers, that less than 999999999 is 350704366.
 Sum of all even Fibonacci numbers, that less than 999999999999 is 478361013020.
 ```
 
+## Build
+
+`% go install fib`
+
 ## Tests
 
-`go test`
+`% go test`
