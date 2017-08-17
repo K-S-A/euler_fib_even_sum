@@ -25,4 +25,7 @@ Sum of all even Fibonacci numbers, that less than 999999999999 is 478361013020.
 
 ## Tests
 
-`% go test`
+```
+% go test
+ok  	fib	0.006s
+```
