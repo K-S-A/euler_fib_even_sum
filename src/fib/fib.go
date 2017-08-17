@@ -7,7 +7,7 @@ import "fmt"
 func FibEvenSum(maxBorder uint64) uint64 {
   var n, n1 uint64 = 1, 1
 
-	for !(n1 >= maxBorder && n1 % 2 == 0) {
+  for !(n1 >= maxBorder && n1 % 2 == 0) {
     n, n1 = n1, n + n1
   }
 
